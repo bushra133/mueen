@@ -1,0 +1,306 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    /*background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(28, 30, 126));*/
+}
+
+.btn-primary {
+    background-color: #1f82ba;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #1f82ba;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.background-decoration {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 200, 200, 0.5);
+    border-radius: 50%;
+    z-index: -1;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+} */
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+.bg-primary {
+        background-color: #1f82ba !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fdfdfd;
+}
+
+.bg-light {
+    background-color: #f5f5f5 !important;
+}
+
+h1 {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 3.5rem;
+    margin-top: 5rem;
+    text-align: right;
+    position: top;
+}
+h3 {
+    color: #1f82ba;
+    font-weight: bold;
+
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 70px;
+}
+
+
+
+/* @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 5rem;
+        padding-left: 0.5rem;
+    }
+} */
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 100%;
+    }
+}
+
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+    
+}
+.features {
+    text-align: center;
+    margin-top: 25px;
+}
+.our-services .icon { 
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+.our-services:hover h4, .our-services:hover p {
+    color: #fff
+}
+.speedup, .settings,  .backups, .ssl {
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+}
+.speedup:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+.settings:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+.backups:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+.ssl:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+
+
+.vision-mission-section {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* تنسيق البطاقات */
+.card-custom {
+    width: 450px;
+    height: 250px;
+    margin: 35px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(-45deg, #b7d1df 0%, #f1faff 100%)
+}
+
+/* تنسيق العناوين داخل البطاقات */
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1f82ba;
+    margin-bottom: 40px;
+}
+
+/* تنسيق النص داخل البطاقات */
+.card-text {
+    font-size: 1rem;
+    color: #212529;
+    padding: 0 20px;
+}
+
+.partners-section {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+}
+
+/* تنسيق شريط الصور المتحرك */
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
+/* تنسيق الصور */
+.scrolling-wrapper img {
+    width: 300px;
+    height: 110px;
+    margin-right: 45px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.scrolling-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+/* إخفاء شريط التمرير */
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.comments-section {
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* تنسيق كل بطاقة تعليق */
+.comment-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*تنسيق الصورة  */
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+/* تنسيق اسم المستخدم وتاريخ التعليق */
+.username {
+    font-weight: bold;
+    color: #333;
+}
+.comment-date {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* تنسيق نص التعليق */
+.comment-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* تنسيق حقل إدخال التعليق */
+.add-comment textarea {
+    resize: none;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/* تنسيق زر الإرسال */
+.add-comment button {
+    background-color: #1f82ba;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+.add-comment button:hover {
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+/* .footer {
+    background-color: #1f82ba;
+    color: #f8f9fa;
+    padding: 20px 0;
+    
+} */
+
+/* تنسيق الشعار */
+/* .footer-logo img {
+    width: 120px;
+} */
+
+/* تنسيق الروابط */
+/* .footer-links a, .social-icons a {
+    color: #f8f9fa;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+.footer-links a:hover, .social-icons a:hover  {
+    color: #060055;
+} */
+
+
